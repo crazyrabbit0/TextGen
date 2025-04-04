@@ -1,22 +1,18 @@
-# Text To Image App
-
-![Text To Image Template Preview](https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/dddfe97e-e689-450b-d5a9-d49801da6a00/public)
+# Text Generation App
 
 <!-- dash-content-start -->
 
-Generate images based on text prompts using [Workers AI](https://developers.cloudflare.com/workers-ai/). In this example, going to the website will generate an image from the prompt "cyberpunk cat" using the `@cf/stabilityai/stable-diffusion-xl-base-1.0` model. Be patient! Your image may take a few seconds to generate.
+Generate text based on text prompts using [Workers AI](https://developers.cloudflare.com/workers-ai/).
+
+In this example, going to the website will generate text from your prompt query parameter using the `@cf/deepseek-ai/deepseek-r1-distill-qwen-32b` model.
+
+Be patient! Your text may take a few seconds to generate.
 
 <!-- dash-content-end -->
 
 ## Getting Started
 
 Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
-
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/textgen
-```
-
-A live public deployment of this template is available at [https://textgen.templates.workers.dev](https://textgen.templates.workers.dev)
 
 ## Setup Steps
 
